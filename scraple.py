@@ -9,7 +9,7 @@ csv_writer.writerow(['product_name', 'product_rating', 'num_of_reviews', 'produc
 
 driver = webdriver.Chrome()
 
-productName = "lg tv"
+productName = input("Enter name of the product")
 productName = productName.replace(' ','+')
 
 def url(i):
